@@ -1,0 +1,6 @@
+modello,arc_challenge,hellaswag,winogrande,truthfulqa_mc2,mmlu
+BASE,32.4,49.2,59.2,42.11,45.81
+DPO,32.4,49.2,59.2,42.07,45.77
+ORPO,32.4,49.4,58.8,42.12,45.72
+Δ DPO vs BASE,0.0,0.0,0.0,-0.04,-0.04
+Δ ORPO vs BASE,0.0,0.2,-0.4,0.01,-0.09
