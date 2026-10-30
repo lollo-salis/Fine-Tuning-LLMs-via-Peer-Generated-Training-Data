@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Fine-Tuning Large Language Models via Peer-Generated Training Data"
+type: software
+authors:
+  - family-names: Salis
+    given-names: Lorenzo
+date-released: 2026-01-01
+license: MIT
+abstract: >-
+  Feasibility study of Direct Preference Optimization (DPO) on preference datasets
+  built automatically from AutoBench peer-assessment scores, without human annotation.

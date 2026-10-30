@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (the AutoBench export is private and must never be committed)
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Model artefacts
+*.safetensors
+*.bin
+*.pt
+*.gguf
+model-*/
+hf_cache/
+
+# Secrets / environment
+.env
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

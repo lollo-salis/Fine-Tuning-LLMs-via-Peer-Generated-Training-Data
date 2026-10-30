@@ -1,0 +1,8 @@
+# Dataset construction + tests (CPU only)
+pandas>=2.0
+pyarrow>=14.0
+ftfy>=6.1
+pytest>=7.0
+
+# The training / evaluation notebooks install their own GPU dependencies
+# (unsloth, trl, peft, lm-eval) at runtime on Kaggle - see the first cell of each notebook.
