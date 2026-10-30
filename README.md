@@ -1,6 +1,6 @@
 # Fine-Tuning LLMs via Peer-Generated Training Data
 
-[![tests](https://github.com/<your-username>/peer-generated-dpo/actions/workflows/tests.yml/badge.svg)](https://github.com/<your-username>/peer-generated-dpo/actions/workflows/tests.yml)
+[![tests](https://github.com/lollo-salis/Fine-Tuning-LLMs-via-Peer-Generated-Training-Data/actions/workflows/tests.yml/badge.svg)](https://github.com/lollo-salis/Fine-Tuning-LLMs-via-Peer-Generated-Training-Data/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
@@ -117,8 +117,8 @@ Full tables: [`results/results.md`](results/results.md).
 
 * **Run the tests** (no data or GPU needed) to see the dataset pipeline in action on synthetic scores:
   ```bash
-  git clone https://github.com/<your-username>/peer-generated-dpo.git
-  cd peer-generated-dpo
+  git clone https://github.com/lollo-salis/Fine-Tuning-LLMs-via-Peer-Generated-Training-Data.git
+  cd Fine-Tuning-LLMs-via-Peer-Generated-Training-Data 
   pip install -r requirements.txt
   pytest
   ```
@@ -147,4 +147,4 @@ Code: [MIT](LICENSE). The thesis PDF in `docs/` is © 2026 Lorenzo Salis, all ri
 ## Author
 
 **Lorenzo Salis** - BSc Mathematics for Artificial Intelligence, Sapienza University of Rome.
-<!-- Add: LinkedIn / email / website -->
+[LinkedIn](https://www.linkedin.com/in/lorenzo-salis-b0a983435) · [Email](mailto:lorenzo.salis04@gmail.com) · [GitHub](https://github.com/lollo-salis)
