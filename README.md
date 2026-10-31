@@ -12,7 +12,7 @@ This repository contains the code behind my BSc thesis in *Mathematics for Artif
 3. fine-tune small open models (**Gemma 2 2B Instruct**, **Qwen 2.5 0.5B Instruct**) with **Direct Preference Optimization (DPO)** on a single free Kaggle T4 GPU (QLoRA via Unsloth),
 4. evaluate on a held-out preference test set and on public benchmarks.
 
-> 📄 Full write-up: [`docs/thesis_it.pdf`](docs/thesis_it.pdf) (in Italian; abstract and results are summarised below).
+> 📄 Full write-up: [English](docs/thesis_en.pdf) · [Italiano](docs/thesis_it.pdf)
 
 > 🔒 **About the data.** The AutoBench export behind this work was shared privately by the AutoBench authors, so **neither the raw data nor the derived preference datasets are published here**. The code, hyper-parameters and results are fully documented, and the pipeline runs on any scored-answers CSV (see [Reproducing this work](#reproducing-this-work)). Notebook outputs are cleared for the same reason; all results are reported in [`results/results.md`](results/results.md).
 
@@ -107,7 +107,8 @@ Full tables: [`results/results.md`](results/results.md).
 ├── src/build_dataset.py                # CLI/library version of notebook 01
 ├── tests/                              # unit tests for the dataset pipeline (synthetic data)
 ├── results/results.md                  # all result tables from the thesis
-├── docs/thesis_it.pdf                  # full thesis (Italian)
+├── docs/thesis_en.pdf                  # full thesis (English)
+├── docs/thesis_it.pdf                  # full thesis (Italian, original)
 └── .github/workflows/tests.yml         # CI: runs the tests on every push
 ```
 
@@ -142,7 +143,7 @@ If this is useful to you, please cite the thesis (see [`CITATION.cff`](CITATION.
 
 ## License
 
-Code: [MIT](LICENSE). The thesis PDF in `docs/` is © 2026 Lorenzo Salis, all rights reserved.
+Code: [MIT](LICENSE). The thesis PDFs in `docs/` is © 2026 Lorenzo Salis, all rights reserved.
 
 ## Author
 
