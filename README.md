@@ -53,6 +53,7 @@ All come from 313 unique prompts and only use answers and scores from the 20 ope
 
 ### Training setup
 
+| | |
 |---|---|
 | Algorithm | DPO (sigmoid loss), beta = 0.1 |
 | Adapter | QLoRA - 4-bit NF4 base, LoRA r = 16, alpha = 16, dropout 0, all attention + MLP projections |
